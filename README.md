@@ -18,7 +18,7 @@ pip --version
 
 ## Instalando o Gunicorn
 
-Para instalar o Gunicor basta digitar o seguinte comando 
+Para instalar o Gunicorn basta digitar o seguinte comando 
 
 ```
 pip install gunicorn
@@ -57,6 +57,12 @@ Após a conclusão da instalação das dependência rode o seguinte comando no t
 ```
 gunicorn projeto_teste.wsgi:application --bind 0.0.0.0:8000
 ```
+ou execute o run-linux.sh
+
+```bash
+./run-linux.sh
+```
+
 Após executar o comando abra o seu browser de preferência e digite: localhost:8000. A página do Django deve ser apresentada. Para mais referências entre Django e Gunicorn veja a referência **3**.
 
 ## Referências:
