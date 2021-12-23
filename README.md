@@ -45,14 +45,21 @@ gunicorn <nome_projeto>.wsgi:application --bind 0.0.0.0:<porta>
 
 Para exemplificar o uso, criamos uma aplicação django de teste simples. Basicamente, a aplicação apresenta a página inicial do django.
 
-Para instalar a aplicação bastas executar o seguinte comando dentro da pasta que contem o arquivo **requirements.txt**:
+Primeiro clone o projeto para o seu computador.
+
+```bash
+git clone https://github.com/recombX/djangogunicorn.git
+```
+
+Depois, para instalar as dependências da aplicação, execute o comando abaixo dentro da pasta que contem o arquivo **requirements.txt**:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-Esse comando instala todas as bibliotecas necessárias para rodar a aplicação django, inclusive a gunicorn. 
+Esse comando instala todas as bibliotecas necessárias para rodar a aplicação django, inclusive o gunicorn. 
 
-Após a conclusão da instalação das dependência rode o seguinte comando no terminal 
+Após a conclusão da instalação das dependência rode o seguinte comando no terminal para executar a aplicação.
 
 ```
 gunicorn projeto_teste.wsgi:application --bind 0.0.0.0:8000
