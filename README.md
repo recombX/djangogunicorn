@@ -15,6 +15,20 @@ Para saber a versão do PIP digite o seguinte comando:
 ```
 pip --version
 ``` 
+## Criando e carregando um ambiente python
+
+Para criar um ambiente python execute o seguinte comando: 
+
+```
+python -m venv .venv
+```
+Perceba que uma pasta com o nome *.venv* será criada.
+
+Após isso execute o seguinte comando para carregar o ambiente:
+
+```
+source .venv/bin/activated
+``` 
 
 ## Instalando o Gunicorn
 
