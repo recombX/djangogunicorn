@@ -1,4 +1,4 @@
-# Tutorial de como utilizar GNUICORN com django
+# Tutorial de como utilizar Gunicorn com Django
 ## Pré-Requisitos
 1) Python 3 instalado no linux
 2) Pip instaldo no Linux
